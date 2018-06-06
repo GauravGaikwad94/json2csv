@@ -1,0 +1,121 @@
+{
+	"_index": "instrumentation2_1514764800000",
+	"_type": "session_statistics",
+	"_id": "9e4d149c-d681-4bd1-8281-dc97f0e3f896_1515195862965",
+	"_score": 1,
+	"_source": {
+		"tenantId": "ae4d7b7e-9ba3-4a89-8e3f-c08a9b71f150",
+		"sessionId": "9e4d149c-d681-4bd1-8281-dc97f0e3f896",
+		"sessionInstanceId": "9e4d149c-d681-4bd1-8281-dc97f0e3f896_1515195862965",
+		"conversationId": "b315481e-cf19-4034-a714-626679d5d8a8",
+		"starterId": "fd417328-8066-4148-b383-c3113258da86",
+		"msIpAddress": "136.157.202.237",
+		"msRegion": "NAM",
+		"appNode": "app-03-fth01prod-de",
+		"startTime": 1515195867747,
+		"endTime": 1515196269362,
+		"confDuration": 401615,
+		"participants": 2,
+		"moderators": 0,
+		"phoneParticipants": 0,
+		"guestParticipants": 0,
+		"sumUserDuration": 803230,
+		"sumUserVideoDuration": 783301,
+		"sumUserScreenDuration": 0,
+		"sumUserPhoneDuration": 0,
+		"audio": true,
+		"video": true,
+		"screenShare": false,
+		"userStatList": [
+			{
+				"clientId": "ad50739d-2bd0-4c82-bdb4-304410e5dd93",
+				"userId": "f5f863d2-aedd-4140-9c2b-7107aac8ce1c",
+				"connectionId": null,
+				"emailAddress": "byron.ford@siemens.com",
+				"userTimes": {
+					"startTime": 1515195867747,
+					"endTime": 1515196269362
+				},
+				"disconnectCause": "LEFT",
+				"noOfAudioTimes": 1,
+				"noOfVideoTimes": 1,
+				"noOfScreenTimes": 0,
+				"duration": 401615,
+				"videoDuration": 390632,
+				"screenDuration": 0,
+				"phoneDuration": 0,
+				"videoSendOrReceiveDuration": 392669,
+				"screenSendOrReceiveDuration": 0,
+				"participantType": "USER",
+				"moderator": false,
+				"telephony": false,
+				"external": false,
+				"sessionGuest": false,
+				"meetingPoint": false,
+				"initiator": false,
+				"audioTimes": [
+					{
+						"startTime": 1515195867747,
+						"endTime": 1515196269362
+					}
+				],
+				"videoTimes": [
+					{
+						"startTime": 1515195878730,
+						"endTime": 1515196269362
+					}
+				],
+				"screenTimes": []
+			},
+			{
+				"clientId": "5e14d761-2440-4f5b-a5d9-a55b308cc045",
+				"userId": "fd417328-8066-4148-b383-c3113258da86",
+				"connectionId": null,
+				"emailAddress": "brandy.mulcare@siemens.com",
+				"userTimes": {
+					"startTime": 1515195867747,
+					"endTime": 1515196269362
+				},
+				"disconnectCause": "LEFT",
+				"noOfAudioTimes": 1,
+				"noOfVideoTimes": 1,
+				"noOfScreenTimes": 0,
+				"duration": 401615,
+				"videoDuration": 392669,
+				"screenDuration": 0,
+				"phoneDuration": 0,
+				"videoSendOrReceiveDuration": 392669,
+				"screenSendOrReceiveDuration": 0,
+				"participantType": "USER",
+				"moderator": false,
+				"telephony": false,
+				"external": false,
+				"sessionGuest": false,
+				"meetingPoint": false,
+				"initiator": true,
+				"participants": 2,
+				"phoneParticipants": 0,
+				"guestParticipants": 0,
+				"video": true,
+				"screenShare": false,
+				"audioTimes": [
+					{
+						"startTime": 1515195867747,
+						"endTime": 1515196269362
+					}
+				],
+				"videoTimes": [
+					{
+						"startTime": 1515195876693,
+						"endTime": 1515196269362
+					}
+				],
+				"screenTimes": []
+			}
+		],
+		"directCall": true,
+		"moderated": false,
+		"guestAccessDisabled": false,
+		"largeConference": false
+	}
+}
